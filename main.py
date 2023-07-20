@@ -5,12 +5,6 @@ from disnake.ext import commands
 
 import settings
 
-"""
-There shouldn't be anything in main.py that needs to get changed.
-
-Most of the stuff you might want to do can be done in either the cogs directory or settings.py
-"""
-
 class bot(commands.InteractionBot):
     log = settings.logging.getLogger('bot')
 
